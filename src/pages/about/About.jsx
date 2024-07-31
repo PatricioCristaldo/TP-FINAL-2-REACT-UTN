@@ -3,12 +3,12 @@ import React from 'react';
 
 function About() {
   return (
-    <section class="about"  id='about'>
-    <div class="container">
-        <div class="about-image">
+    <section className="about"  id='about'>
+    <div className="container">
+        <div className="about-image">
             <img src="public/images/Ejemplo2.png" alt="Patricio Cristaldo"></img>
         </div>
-        <div class="about-text">
+        <div className="about-text">
             <h2>Sobre mi</h2>
             <h3>Hola soy Patricio!</h3>
             <p>Soy desarrollador web full stack, actualmente me encuentro realizando una diplomatura en

@@ -4,8 +4,8 @@ import './Header.css'
 function Header() {
   return (
     <header>
-        <div class="container">
-            <div class="logo">
+        <div className="container">
+            <div className="logo">
                 <h1>P. CRISTALDO</h1>
             </div>
             <nav>
@@ -16,7 +16,7 @@ function Header() {
                     <li><a href="#about">Acerca de mi</a></li>
                 </ul>
             </nav>
-            <a href="mailto:patricio_cristaldo@outlook.com?subject=Cotización&body=Hola, me gustaría pedir presupuesto para..." class="quote-button">Cotización</a>
+            <a href="mailto:patricio_cristaldo@outlook.com?subject=Cotización&body=Hola, me gustaría pedir presupuesto para..." className="quote-button">Cotización</a>
         </div>
     </header>
   )

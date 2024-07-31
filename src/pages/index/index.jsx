@@ -13,10 +13,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Router>
       <Header />
       <Main></Main>
-      <Routes>
-        <Route path="/" element={<Main />} />
-        <Route path="/about" element={<About />} />
-      </Routes>
+
       <Footer />
     </Router>
   </React.StrictMode>
