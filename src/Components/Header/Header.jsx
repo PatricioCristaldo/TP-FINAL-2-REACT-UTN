@@ -10,7 +10,7 @@ function Header() {
             </div>
             <nav>
                 <ul>
-                    <li><a href="/">Principio</a></li>
+                    <li><a href="/tp-final-2-react-utn/">Principio</a></li>
                     <li><a href="https://github.com/PatricioCristaldo?tab=repositories">Projectos</a></li>
                     <li><a href="#services">Servicios</a></li>
                     <li><a href="#about">Acerca de mi</a></li>

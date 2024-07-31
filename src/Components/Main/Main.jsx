@@ -63,7 +63,7 @@ export default function Main() {
                     <p>Soy desarrollador web full stack, actualmente me encuentro realizando una diplomatura en
                         desarrollo web con la Universidad Tecnológica Nacional para potenciar mí conocimiento y
                         habilidades.</p>
-                    <a href="/about" className="cta-button">MÁS INFORMACIÓN</a>
+                    <a href="/tp-final-2-react-utn/about" className="cta-button">MÁS INFORMACIÓN</a>
                 </div>
             </div>
         </section>

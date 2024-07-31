@@ -6,14 +6,16 @@ import './normalize.css';
 import Header from '../../Components/Header/Header';
 import Main from '../../Components/Main/Main';
 import Footer from '../../Components/Footer/Footer';
-import About from '../about/About';
+import About from '../../pages/about/About';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Router>
       <Header />
-      <Main></Main>
-
+      <Routes>
+        <Route path="/tp-final-2-react-utn/" element={<Main />} />
+        <Route path="/tp-final-2-react-utn/about" element={<About />} />
+      </Routes>
       <Footer />
     </Router>
   </React.StrictMode>
