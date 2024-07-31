@@ -13,7 +13,7 @@ export default function Main() {
                     <a href="mailto:patricio_cristaldo@outlook.com?subject=Consulta&body=Hola, me gustaría contarte acerca de mi proyecto..." className="cta-button">CUENTAME SOBRE TU PROYECTO</a>
                 </div>
                 <div className="hero-image"> 
-                    <img src="public/images/Ejemplo1.png" alt="Patricio Cristaldo"></img>
+                    <img src="images/Ejemplo1.png" alt="Patricio Cristaldo"></img>
                 </div>
             </div>
         </section >
@@ -56,14 +56,14 @@ export default function Main() {
         <section className="about"  id='about'>
             <div className="container">
                 <div className="about-image">
-                    <img src="public/images/Ejemplo2.png" alt="Patricio Cristaldo"></img>
+                    <img src="images/Ejemplo2.png" alt="Patricio Cristaldo"></img>
                 </div>
                 <div className="about-text">
                     <h2>Un poco sobre mi</h2>
                     <p>Soy desarrollador web full stack, actualmente me encuentro realizando una diplomatura en
                         desarrollo web con la Universidad Tecnológica Nacional para potenciar mí conocimiento y
                         habilidades.</p>
-                    <a href="/tp-final-2-react-utn/about" className="cta-button">MÁS INFORMACIÓN</a>
+                    <a href="about" className="cta-button">MÁS INFORMACIÓN</a>
                 </div>
             </div>
         </section>
@@ -74,7 +74,7 @@ export default function Main() {
                 <button className="nav-button prev-button">&#9664;</button>
                 <div className="testimonial-card">
                     <div className="testimonial-image">
-                        <img src="public/images/Lestercrest.jpg" alt="Basit Baso"></img>
+                        <img src="images/Lestercrest.jpg" alt="Basit Baso"></img>
                     </div>
                     <h3>KENNY BELL</h3>
                     <p>Excelente predisposición y habilidad, confiable performance y un gran manejo de las herramientas
