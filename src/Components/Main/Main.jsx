@@ -13,7 +13,7 @@ export default function Main() {
                     <a href="mailto:patricio_cristaldo@outlook.com?subject=Consulta&body=Hola, me gustaría contarte acerca de mi proyecto..." className="cta-button">CUENTAME SOBRE TU PROYECTO</a>
                 </div>
                 <div className="hero-image"> 
-                    <img src="/images/Ejemplo1.png" alt="Patricio Cristaldo"></img>
+                    <img src="public/images/Ejemplo1.png" alt="Patricio Cristaldo"></img>
                 </div>
             </div>
         </section >
@@ -74,7 +74,7 @@ export default function Main() {
                 <button className="nav-button prev-button">&#9664;</button>
                 <div className="testimonial-card">
                     <div className="testimonial-image">
-                        <img src="/images/Lestercrest.jpg" alt="Basit Baso"></img>
+                        <img src="public/images/Lestercrest.jpg" alt="Basit Baso"></img>
                     </div>
                     <h3>KENNY BELL</h3>
                     <p>Excelente predisposición y habilidad, confiable performance y un gran manejo de las herramientas
