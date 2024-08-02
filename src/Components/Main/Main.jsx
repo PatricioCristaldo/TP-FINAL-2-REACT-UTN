@@ -107,7 +107,7 @@ export default function Main() {
                             </a>
                         </div>
                     </div>
-                    <a href="#" className="portfolio-button">
+                    <a href="portfolio" className="portfolio-button">
                         VER MI PORTFOLIO
                     </a>
                 </div>
