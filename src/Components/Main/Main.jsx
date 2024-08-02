@@ -82,7 +82,7 @@ export default function Main() {
                                 Diseño de páginas web de distinto tipo; ecommerce, portfolio,
                                 landing, etc. Consultas en el botón debajo.
                             </p>
-                            <a href="#" className="learn-more-button">
+                            <a href="services" className="learn-more-button">
                                 Saber más
                             </a>
                         </div>
@@ -92,7 +92,7 @@ export default function Main() {
                                 Enfoque en una buena experiencia e interfaz de usuario, diseño
                                 amigable, intuitivo y fácil de usar.
                             </p>
-                            <a href="#" className="learn-more-button">
+                            <a href="services" className="learn-more-button">
                                 Saber más
                             </a>
                         </div>
@@ -102,7 +102,7 @@ export default function Main() {
                                 Desarrollo de funciones que automatizan procesos en tu web, en
                                 base a ciertos disparadores personalizables.
                             </p>
-                            <a href="#" className="learn-more-button">
+                            <a href="services" className="learn-more-button">
                                 Saber más
                             </a>
                         </div>
