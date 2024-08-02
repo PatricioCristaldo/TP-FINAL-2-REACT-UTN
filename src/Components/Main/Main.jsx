@@ -74,9 +74,25 @@ export default function Main() {
                 <button className="nav-button prev-button">&#9664;</button>
                 <div className="testimonial-card">
                     <div className="testimonial-image">
-                        <img src="images/Lestercrest.jpg" alt="Basit Baso"></img>
+                        <img src="images/Cliente1.jpg" alt="Basit Baso"></img>
                     </div>
                     <h3>KENNY BELL</h3>
+                    <p>Excelente predisposición y habilidad, confiable performance y un gran manejo de las herramientas
+                        establecidas. Altamente recomendable.</p>
+                </div>
+                <div className="testimonial-card">
+                    <div className="testimonial-image">
+                        <img src="images/Cliente3.jpg" alt="Basit Baso"></img>
+                    </div>
+                    <h3>ELMER CURIO</h3>
+                    <p>Excelente predisposición y habilidad, confiable performance y un gran manejo de las herramientas
+                        establecidas. Altamente recomendable.</p>
+                </div>
+                <div className="testimonial-card">
+                    <div className="testimonial-image">
+                        <img src="images/Cliente2.jpg" alt="Basit Baso"></img>
+                    </div>
+                    <h3>JHONNY CE</h3>
                     <p>Excelente predisposición y habilidad, confiable performance y un gran manejo de las herramientas
                         establecidas. Altamente recomendable.</p>
                 </div>
