@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import React, { useEffect, useState } from "react";
 import "./Main.css";
 
@@ -82,9 +83,9 @@ export default function Main() {
                                 Diseño de páginas web de distinto tipo; ecommerce, portfolio,
                                 landing, etc. Consultas en el botón debajo.
                             </p>
-                            <a href="services" className="learn-more-button">
+                           <Link to="/services" className="learn-more-button">
                                 Saber más
-                            </a>
+                            </Link>
                         </div>
                         <div className="service-card">
                             <h3>UX/UI</h3>
@@ -92,9 +93,9 @@ export default function Main() {
                                 Enfoque en una buena experiencia e interfaz de usuario, diseño
                                 amigable, intuitivo y fácil de usar.
                             </p>
-                            <a href="services" className="learn-more-button">
+                           <Link to="/services" className="learn-more-button">
                                 Saber más
-                            </a>
+                            </Link>
                         </div>
                         <div className="service-card">
                             <h3>Automatización</h3>
@@ -102,14 +103,14 @@ export default function Main() {
                                 Desarrollo de funciones que automatizan procesos en tu web, en
                                 base a ciertos disparadores personalizables.
                             </p>
-                            <a href="services" className="learn-more-button">
+                            <Link to="/services" className="learn-more-button">
                                 Saber más
-                            </a>
+                            </Link>
                         </div>
                     </div>
-                    <a href="portfolio" className="portfolio-button">
+                    <Link to="/portfolio" className="portfolio-button">
                         VER MI PORTFOLIO
-                    </a>
+                    </Link>
                 </div>
             </section>
 
@@ -125,9 +126,9 @@ export default function Main() {
                             realizando una diplomatura en desarrollo web con la Universidad
                             Tecnológica Nacional para potenciar mí conocimiento y habilidades.
                         </p>
-                        <a href="about" className="cta-button">
+                        <Link to="/about" className="cta-button">
                             MÁS INFORMACIÓN
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </section>
