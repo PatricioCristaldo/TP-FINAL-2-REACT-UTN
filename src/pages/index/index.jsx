@@ -15,10 +15,10 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Router>
       <Header />
       <Routes>
-        <Route path="/tp-final-2-react-utn/" element={<Main />} />
-        <Route path="/tp-final-2-react-utn/about" element={<About />} />
-        <Route path="/tp-final-2-react-utn/services" element={<Services />} />
-        <Route path="/tp-final-2-react-utn/portfolio" element={<Portfolio />} />
+      <Route path="/" element={<Main />} />
+        <Route path="about" element={<About />} />
+        <Route path="services" element={<Services />} />
+        <Route path="portfolio" element={<Portfolio />} />
       </Routes>
       <Footer />
     </Router>
