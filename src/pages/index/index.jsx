@@ -12,10 +12,10 @@ import { Portfolio } from '../portfolio/Portfolio';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Router>
+    <Router basename="/tp-final-2-react-utn">
       <Header />
       <Routes>
-      <Route path="/" element={<Main />} />
+        <Route path="/" element={<Main />} />
         <Route path="about" element={<About />} />
         <Route path="services" element={<Services />} />
         <Route path="portfolio" element={<Portfolio />} />
