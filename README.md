@@ -1,8 +1,10 @@
-# React + Vite
+# Trabajo Práctico Final Nº 2 - Diplomatura UTN
+Despliegue del proyecto en la siguiente URL: https://patriciocristaldo.github.io/tp-final-2-react-utn/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Página Tipo Portfolio realizada con REACT. 
 
-Currently, two official plugins are available:
+Totalmente funcional, cada botón realiza alguna acción; como redirecciones con enlaces internos y externos. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Adaptación responsive para distintos dispositivos.
+
+Se utilizó Bootstrap para algunos iconos y fuentes.
