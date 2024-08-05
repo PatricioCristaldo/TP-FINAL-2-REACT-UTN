@@ -1,4 +1,4 @@
-                                                  /* HEADER */
+/* HEADER */
 .headerContainer {
     display: flex;
     width: 85%;
@@ -13,9 +13,8 @@ header {
     color: #333;
     padding-top: 20px;
     min-height: 70px;
-
 }
-header h1{
+header h1 {
     font-family: "AGENCYFB";
     color: var(--tertiary-color);
     font-weight: normal;
@@ -54,4 +53,61 @@ header .quote-button {
     border-radius: 5px;
     font-family: "GADUGI";
     font-weight: bold;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) { /* Tablet view */
+    .headerContainer {
+        flex-direction: column;
+        width: 100%;
+    }
+    header {
+        padding: 10px;
+    }
+    header h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+    header ul {
+        text-align: center;
+        padding: 0;
+    }
+    header li {
+        display: block;
+        padding: 10px 0;
+    }
+    header .quote-button {
+        float: none;
+        display: block;
+        margin: 10px auto;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) { /* Mobile view */
+    .headerContainer {
+        flex-direction: column;
+        width: 100%;
+    }
+    header {
+        padding: 10px;
+    }
+    header h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+    header ul {
+        text-align: center;
+        padding: 0;
+    }
+    header li {
+        display: block;
+        padding: 8px 0;
+    }
+    header .quote-button {
+        float: none;
+        display: block;
+        margin: 10px auto;
+        text-align: center;
+    }
 }
