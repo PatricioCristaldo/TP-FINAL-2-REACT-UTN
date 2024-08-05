@@ -29,11 +29,4 @@ body {
     line-height: 1.6;
 }
 
-.container {
-    display: flex;
-    width: 85%;
-    margin: auto;
-    overflow: hidden;
-    justify-content: space-between;
-    align-items: center;
-}
+

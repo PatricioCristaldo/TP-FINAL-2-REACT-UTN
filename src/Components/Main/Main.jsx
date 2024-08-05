@@ -42,7 +42,7 @@ export default function Main() {
     return (
         <main>
             <section className="hero" id="hero">
-                <div className="container">
+                <div className="mainContainer">
                     <div className="hero-text">
                         <h2>Hola! Yo soy </h2>
                         <span>PATRICIO </span>
@@ -75,7 +75,7 @@ export default function Main() {
             <section className="services-section" id="services">
                 <h2>Mis grandes </h2>
                 <span>servicios</span>
-                <div className="container">
+                <div className="mainContainer">
                     <div className="services-cards">
                         <div className="service-card">
                             <h3>Diseño web</h3>
@@ -115,7 +115,7 @@ export default function Main() {
             </section>
 
             <section className="about" id="about">
-                <div className="container">
+                <div className="mainContainer">
                     <div className="about-image">
                         <img src="images/Ejemplo2.png" alt="Patricio Cristaldo"></img>
                     </div>
@@ -135,7 +135,7 @@ export default function Main() {
 
             <section className="testimonials-section">
                 <h2>Testimonials</h2>
-                <div className="container">
+                <div className="mainContainer">
                     <button className="nav-button prev-button" onClick={showPrevCard}>&#9664;</button>
                     {testimonials.map((testimonial, index) => (
                         <div

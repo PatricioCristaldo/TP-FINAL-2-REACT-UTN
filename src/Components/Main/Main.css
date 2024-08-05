@@ -1,4 +1,13 @@
 /* HERO SECTION */
+.mainContainer {
+  display: flex;
+  width: 85%;
+  margin: auto;
+  overflow: hidden;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .hero {
   display: flex;
   justify-content: space-between;

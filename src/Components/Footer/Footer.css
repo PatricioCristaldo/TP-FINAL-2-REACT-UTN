@@ -1,17 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-@font-face {
-    font-family: 'AGENCYFB';
-    src: url('../../../public/fonts/AGENCYB.TTF') format('tff');
-    font-weight: normal;
-    font-style: bold;
-}
-@font-face {
-    font-family: 'GADUGI';
-    src: url('../../../public/fonts/gadugi-bold.ttf') format('tff');
-    font-weight: normal;
-    font-style: bold;
-}
-
  /* FOOTER */
 
 footer {

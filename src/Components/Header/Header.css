@@ -1,4 +1,13 @@
                                                   /* HEADER */
+.headerContainer {
+    display: flex;
+    width: 85%;
+    margin: auto;
+    overflow: hidden;
+    justify-content: space-between;
+    align-items: center;
+}
+                                                  
 header {
     background: var(--quinary-color);
     color: #333;
